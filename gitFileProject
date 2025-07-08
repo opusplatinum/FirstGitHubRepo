@@ -1,0 +1,23 @@
+#!/bin/bash
+
+#######################################
+Auther: Gaurav
+Date:08th July, 25
+Version: v1
+#######################################
+
+set -x
+
+#############This script is to use common commands in Linux Shell Scripting#########
+
+ls -l
+
+mkdir New
+cd New
+Touch New.sh
+Touch test1.txt
+
+rm test1.txt
+cd ..
+
+ls -l
